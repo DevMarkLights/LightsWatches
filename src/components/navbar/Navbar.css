@@ -1,0 +1,49 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgba(208, 207, 207, 0.489);
+}
+.navbar-middle{
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar-middle p{
+    margin: 8px;
+    font-size: large;
+    cursor: pointer;
+}
+.navbar-right-side{
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.shopping-cart{
+    font-size: x-large;
+}
+.profile{
+    font-size: x-large;
+}
+.NavbarHoverMenu-container{
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    min-width: 50%;
+    box-shadow: 10px 10px 30px rgba(208, 207, 207, 0.489);
+    border-radius: 5px;
+}
+.NavbarHoverMenu-body{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-around;
+    min-width: 50%;
+}
+.NavbarHoverMenu-p{
+    cursor: pointer;
+}
