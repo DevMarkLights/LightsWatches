@@ -1,0 +1,19 @@
+.homepage-header-img-container{
+    display: flex;
+    flex-direction: row;
+}
+.homepage-header-img{
+    height: auto;
+    width: 25vw;
+    opacity: .6;
+}
+.homepage-header-text{
+    position: fixed;
+    top: 100px;
+    left: 42%;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.homepage-body-products{
+    
+}

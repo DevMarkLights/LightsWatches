@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Navbar.css'
+import './navbar.css'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {BsPerson} from 'react-icons/bs'
 const Navbar = () => {
@@ -13,57 +13,65 @@ const Navbar = () => {
       <div className='NavbarHoverMenu-container' onMouseLeave={() => {displayHoverMenu('')}}>
           {
               type === 'Automatics' &&
-              <div className='NavbarHoverMenu-body'>
+              <> 
+                <h2 style={{textAlign: 'center'}}>Automatics</h2>
+                <div className='NavbarHoverMenu-body'>
                   <div>
-                      <h2>Gender</h2>
-                      <p className='NavbarHoverMenu-p'>Men's</p>
-                      <p className='NavbarHoverMenu-p'>Women's</p>
-                  </div>
-                  <div>
-                      <h2>Band Material</h2>
-                      <p className='NavbarHoverMenu-p'>Leather</p>
-                      <p className='NavbarHoverMenu-p'>Silicon</p>
-                      <p className='NavbarHoverMenu-p'>Rubber</p>
-                      <p className='NavbarHoverMenu-p'>Metal</p>
-                  </div>
-              </div>
+                        <h4>Gender</h4>
+                        <p className='NavbarHoverMenu-p'>Men's</p>
+                        <p className='NavbarHoverMenu-p'>Women's</p>
+                    </div>
+                    <div>
+                        <h4>Band Material</h4>
+                        <p className='NavbarHoverMenu-p'>Leather</p>
+                        <p className='NavbarHoverMenu-p'>Silicon</p>
+                        <p className='NavbarHoverMenu-p'>Rubber</p>
+                        <p className='NavbarHoverMenu-p'>Metal</p>
+                    </div>
+                </div>
+              </>
   
           }
           {
               type === 'Quarts' &&
+              <> 
+              <h2 style={{textAlign: 'center'}}>Quarts</h2>
               <div className='NavbarHoverMenu-body'>
-                  <div>
-                      <h2>Gender</h2>
+                <div>
+                      <h4>Gender</h4>
                       <p className='NavbarHoverMenu-p'>Men's</p>
                       <p className='NavbarHoverMenu-p'>Women's</p>
                   </div>
                   <div>
-                      <h2>Band Material</h2>
+                      <h4>Band Material</h4>
                       <p className='NavbarHoverMenu-p'>Leather</p>
                       <p className='NavbarHoverMenu-p'>Silicon</p>
                       <p className='NavbarHoverMenu-p'>Rubber</p>
                       <p className='NavbarHoverMenu-p'>Metal</p>
                   </div>
               </div>
+            </>
   
           }
           {
               type === 'Special Edition' &&
-              <div className='NavbarHoverMenu-body'>
+              <> 
+                <h2 style={{textAlign: 'center'}}>Special Edition</h2>
+                <div className='NavbarHoverMenu-body'>
                   <div>
-                      <h2>Gender</h2>
-                      <p>Men's</p>
-                      <p>Women's</p>
-                  </div>
-                  <div>
-                      <h2>Band Material</h2>
-                      <p>Leather</p>
-                      <p>Silicon</p>
-                      <p>Rubber</p>
-                      <p>Metal</p>
-                  </div>
-              </div>
-  
+                        <h4>Gender</h4>
+                        <p className='NavbarHoverMenu-p'>Men's</p>
+                        <p className='NavbarHoverMenu-p'>Women's</p>
+                    </div>
+                    <div>
+                        <h4>Band Material</h4>
+                        <p className='NavbarHoverMenu-p'>Leather</p>
+                        <p className='NavbarHoverMenu-p'>Silicon</p>
+                        <p className='NavbarHoverMenu-p'>Rubber</p>
+                        <p className='NavbarHoverMenu-p'>Metal</p>
+                    </div>
+                </div>
+              </>
           }
       </div>
     )
