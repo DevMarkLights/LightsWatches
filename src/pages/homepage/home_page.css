@@ -8,12 +8,12 @@
     opacity: .6;
 }
 .homepage-header-text{
-    position: fixed;
+    position: absolute;
     top: 100px;
     left: 42%;
     font-size: xx-large;
     font-weight: bold;
 }
 .homepage-body-products{
-    
+    margin:10px
 }
